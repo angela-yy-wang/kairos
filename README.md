@@ -1,7 +1,7 @@
 # Kairos
 > Pay your tuition at the right time — not just on time.
 
-Exchange rates change daily. For international students paying large sums like tuition, even a small shift can mean hundreds of dollars lost. RateReady predicts the optimal day to pay based on your deadline and home currency, and surfaces the recommendation directly on your university's payment portal.
+Exchange rates change daily. For international students paying large sums like tuition, even a small shift can mean hundreds of dollars lost. Kairos predicts the optimal day to pay based on your deadline and home currency, and surfaces the recommendation directly on your university's payment portal.
 
 ---
 
