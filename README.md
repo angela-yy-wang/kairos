@@ -13,14 +13,19 @@ Exchange rates change daily. For international students paying large sums like t
 
 ## Stack
 
-| Layer | Tech |
+Layer | Tech
 |---|---|
-
-
+| Prediction API | Python, FastAPI, Prophet |
+| Exchange Rate Data | Frankfurter.app |
+| Chrome Extension | Manifest, JS |
 ---
 
 ## Setup
 
+Run API:
+cd api
+pip install fastapi uvicorn prophet pandas requests "numpy<2.0"
+uvicorn predict:app --reload
 
 Confirm it's running at `http://127.0.0.1:8000`
 
