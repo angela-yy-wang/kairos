@@ -23,9 +23,11 @@ Layer | Tech
 ## Setup
 
 Run API:
+```
 cd api
 pip install fastapi uvicorn prophet pandas requests "numpy<2.0"
 uvicorn predict:app --reload
+```
 
 Confirm it's running at `http://127.0.0.1:8000`
 
