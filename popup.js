@@ -1,9 +1,9 @@
 // popup/popup.js
-const rawDeadline = document.getElementById('deadline').value;
-const normalized = new Date(rawDeadline).toISOString().split('T')[0];
-settings.deadline = normalized;
 
 document.getElementById('save').addEventListener('click', async () => {
+    const rawDeadline = document.getElementById('deadline').value;
+    const normalized = new Date(rawDeadline).toISOString().split('T')[0];
+
     const settings = {
         currency: document.getElementById('currency').value,
         amount:   parseFloat(document.getElementById('amount').value),
